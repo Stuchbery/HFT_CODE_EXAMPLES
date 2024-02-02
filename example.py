@@ -130,8 +130,7 @@ class MultiWeightedLinearRegression:
                 else:
                     self.ESTIMATED_VALUE += EXPLANATORY_VALUES[i - 1] * self.ESTIMATE_B[i][0]
 
-    def setAlphaByNbOfUpdates(self, nbUpdates):
-        self.alpha_W
+
 
 
 example_data = [] # Test data with known coefficients
